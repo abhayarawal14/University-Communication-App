@@ -22,7 +22,7 @@ The project aimed to create a user-friendly interface, address potential issues,
 ## Documentation
 Comprehensive documentation is provided to guide users and developers through the application’s functionalities and codebase.
 
-## DEMO
+## How the application works? (DEMO)
 ![1](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/906f16c4-c8c8-456b-8f89-1066c46e8d59)
 
 ![2](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/0af54868-d750-48eb-b65a-d5f295ee1373)
