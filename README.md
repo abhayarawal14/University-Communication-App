@@ -21,3 +21,25 @@ The project aimed to create a user-friendly interface, address potential issues,
 
 ## Documentation
 Comprehensive documentation is provided to guide users and developers through the application’s functionalities and codebase.
+
+## DEMO
+![1](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/906f16c4-c8c8-456b-8f89-1066c46e8d59)
+
+![2](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/0af54868-d750-48eb-b65a-d5f295ee1373)
+
+![3](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/85018ce3-337a-4eda-bf8c-a069f8b57692)
+
+![4](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/1a20b0f9-cb56-4fd7-bf03-1414da1cd415)
+
+![5](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/8183c302-df38-42b9-bb0f-d2dfed400bde)
+
+![6](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/81ebb360-679f-4ac8-a1c0-2437a8672ef7)
+
+![7](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/4503be76-ea73-4c59-862a-2e655a03a64d)
+
+![8](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/a45ccff4-71ea-4b2e-a316-b569240dc20b)
+
+![9](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/49320315-358d-4d7e-8114-2ed196fb28a7)
+
+![10](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/67765d83-9f63-4060-b40d-363e0e918048)
+
