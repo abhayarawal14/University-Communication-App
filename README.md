@@ -52,5 +52,5 @@ Comprehensive documentation is provided to guide users and developers through th
 
 ![4](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/65f06aad-d0a9-4988-9d52-0e8e20d9fc80)
 
-![5](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/b395be22-68ba-4d9d-ab2b-24044cf8d252)
+![5](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/39b8dd4c-c208-4abd-940b-f0b1019b2383)
 
