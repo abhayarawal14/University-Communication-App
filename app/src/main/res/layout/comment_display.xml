@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/comment_profile_image"
+        android:layout_width="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="50dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+
+        android:background="@drawable/background_left"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/comment_username"
+            android:text="Ninjeng"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/show_comment"
+            android:text=""
+            android:textSize="18sp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@id/comment_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

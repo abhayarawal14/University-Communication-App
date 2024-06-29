@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:layout_marginTop="20sp"
+    tools:context=".activity.EditProfileActivity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:src="@drawable/logo"
+        android:id="@+id/updateProfileImage"
+        android:layout_width="150dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="150dp"/>
+
+
+    <TextView
+        android:text="College ID"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/updateCollegeId"
+        android:hint="@string/enter_student_id"
+        android:fontFamily="@font/roboto"
+        android:textSize="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Full Name"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/updateName"
+        android:hint="@string/enter_full_name"
+        android:fontFamily="@font/roboto"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:text="Email"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/updateEmail"
+        android:hint="Enter Email"
+        android:fontFamily="@font/roboto"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/updateTvBatch"
+        android:text="Batch"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Spinner
+        android:id="@+id/updateBatchSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Password"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/updatePassword"
+        android:hint="Enter Password"
+        android:fontFamily="@font/roboto"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Confirm Password"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/updateConfirmPassword"
+        android:hint="Enter Password"
+        android:fontFamily="@font/roboto"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="15sp"
+        android:id="@+id/btnUpdateProfile"
+        android:text="Update profile"
+        android:textColor="@color/white"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#3E66DC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <ProgressBar
+        android:id="@+id/updateProgressbar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

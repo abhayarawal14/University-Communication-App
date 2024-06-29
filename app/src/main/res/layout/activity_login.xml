@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center_vertical"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="20dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:text="Email"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/emailEditText"
+        android:hint="Enter Email"
+        android:fontFamily="@font/roboto"
+        android:text="abhay122@ismt.edu"
+        android:textSize="12sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="Password"
+        android:textColor="#3E66DC"
+        android:fontFamily="@font/roboto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:hint="Enter Password"
+        android:fontFamily="@font/roboto"
+        android:textSize="12sp"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:text="password"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="15sp"
+        android:id="@+id/loginButton"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#3E66DC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ProgressBar
+        android:id="@+id/loginProgressBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Already have a account? "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/goToSignup"
+            android:text="Signup"
+            android:textColor="#3E66DC"
+            android:layout_marginLeft="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp" />
+    </LinearLayout>
+
+</LinearLayout>

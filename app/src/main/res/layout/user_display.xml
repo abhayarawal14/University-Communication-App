@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userProfileImage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/male" />
+
+    <TextView
+        android:id="@+id/proUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/userProfileImage"
+        android:text="Abhay"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/eventContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/userProfileImage"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_marginRight="20dp"
+        android:text="this is a content"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:id="@+id/ContentImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/eventContent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/welcome"
+        android:visibility="visible" />
+
+    <TextView
+
+        android:id="@+id/likeCountText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ContentImage"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="visible" />
+
+    <TextView
+
+        android:id="@+id/comment_CountText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ContentImage"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:visibility="visible" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="15dp"
+        android:layout_below="@id/likeCountText"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/btnLike"
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_baseline_thumb_up_alt_24"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:text="Like"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/btnComment"
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_baseline_comment_24"
+                    android:layout_height="30dp"/>
+                <TextView
+                    android:text="Comment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

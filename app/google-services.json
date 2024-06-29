@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1018594563954",
+    "project_id": "universityapplication-7ce59",
+    "storage_bucket": "universityapplication-7ce59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018594563954:android:becafa40b087ce0403afeb",
+        "android_client_info": {
+          "package_name": "com.abhay.universityapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018594563954-h5qoas7lodjm7ci0c7veumbi08tq7k9a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVklhvUeplvC4Y5ELryipWTobSJhf8QY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018594563954-h5qoas7lodjm7ci0c7veumbi08tq7k9a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">University Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Add</string>
+    <string name="title_notifications">Friends</string>
+    <string name="title_profile">Profile</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_student_id">Enter College ID</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="login">Login</string>
+    <string name="signup">Signup</string>
+    <string name="submit">submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_edit">Edit Profile</string>
+</resources>
