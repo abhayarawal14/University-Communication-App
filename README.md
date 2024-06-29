@@ -17,7 +17,7 @@ This Android-based university application enhances communication and information
 + **Methodology**: Waterfall
   
 ## Project Focus
-+ The project aimed to create a user-friendly interface, address potential issues, and provide comprehensive documentation to ensure ease of use and maintenance.
+The project aimed to create a user-friendly interface, address potential issues, and provide comprehensive documentation to ensure ease of use and maintenance.
 
 ## Documentation
 Comprehensive documentation is provided to guide users and developers through the application’s functionalities and codebase.
