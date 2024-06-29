@@ -43,3 +43,14 @@ Comprehensive documentation is provided to guide users and developers through th
 
 ![10](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/67765d83-9f63-4060-b40d-363e0e918048)
 
+## How the realtime database works simultaneously? (DEMO) 
+![1](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/6808ef8d-1372-43d3-8d7c-29f84c7fc23c)
+
+![2](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/af74dae5-c9dc-4c5f-b481-65ed80401d8b)
+
+![3](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/80905f90-cd79-4912-bc89-07275788b4b5)
+
+![4](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/65f06aad-d0a9-4988-9d52-0e8e20d9fc80)
+
+![5](https://github.com/abhayarawal14/University-Communication-App/assets/81616443/b395be22-68ba-4d9d-ab2b-24044cf8d252)
+
